@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Стили формы поиска */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Стили вывода GIF */
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+#output div {
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#output div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#output img {
+    width: 100%;
+    height: auto;
+}
+
+#output h2 {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Задний фон с градиентом */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fbc2eb);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Анимация плавного изменения градиента */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
